@@ -362,6 +362,66 @@ body .text-scroll {
   background-color: #E1DA00;
 }
 
+.itemgr--1 {
+  background-color: #7B8788;
+}
+
+.itemgr--2 {
+  background-color: #99AAAB;
+}
+
+.itemgr--3 {
+  background-color: #2C3335;
+}
+
+.itemgr--4 {
+  background-color: #616C6F;
+}
+
+.itemgr--5 {
+  background-color: #DAE0E2;
+}
+
+.itemgr--6 {
+  background-color: #535C68;
+}
+
+.itemgr--7 {
+  background-color: #333945;
+}
+
+.itemgr--8 {
+  background-color: #2F363F;
+}
+
+.itemgr--9 {
+  background-color: #586776;
+}
+
+.itemgr--10 {
+  background-color: #8395A7;
+}
+
+.itemgr--11 {
+  background-color: #A4B0BD;
+}
+
+.itemgr--12 {
+  background-color: #777E8B;
+}
+
+.itemgr--13 {
+  background-color: #758AA2;
+}
+
+.itemgr--14 {
+  background-color: #47535E;
+}
+
+.itemgr--15 {
+  background-color: #4C4B4B;
+}
+
 .item:hover {
   -webkit-transform: translateY(0px) scale(1.1);
           transform: translateY(0px) scale(1.1);
@@ -373,13 +433,13 @@ body .text-scroll {
 
 .progress-container {
   width: 100%;
-  height: 7px;
+  height: 6px;
   background: #ccc;
 }
 
 .progress-bar {
-  height: 7px;
-  background: #6a4a82;
+  height: 6px;
+  background: #bc3285;
   width: 0%;
 }
 
