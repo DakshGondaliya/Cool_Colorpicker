@@ -204,6 +204,66 @@
   background-color: #218F76;
 }
 
+.itemy--1 {
+  background-color: #EEC213;
+}
+
+.itemy--2 {
+  background-color: #F5C469;
+}
+
+.itemy--3 {
+  background-color: #F4C724;
+}
+
+.itemy--4 {
+  background-color: #F0DD87;
+}
+
+.itemy--5 {
+  background-color: #DFAF2B;
+}
+
+.itemy--6 {
+  background-color: #FAC42F;
+}
+
+.itemy--7 {
+  background-color: #F3B63A;
+}
+
+.itemy--8 {
+  background-color: #FBD28B;
+}
+
+.itemy--9 {
+  background-color: #F3B431;
+}
+
+.itemy--10 {
+  background-color: #FAD02E;
+}
+
+.itemy--11 {
+  background-color: #E5B143;
+}
+
+.itemy--12 {
+  background-color: #F3CC79;
+}
+
+.itemy--13 {
+  background-color: #F9DDA4;
+}
+
+.itemy--14 {
+  background-color: #FFF222;
+}
+
+.itemy--15 {
+  background-color: #E1DA00;
+}
+
 .item:hover {
   -webkit-transform: translateY(0px) scale(1.1);
           transform: translateY(0px) scale(1.1);

@@ -209,6 +209,69 @@
   }
 }
 
+.itemy {
+
+  &--1 {
+    background-color: #EEC213;
+  }
+
+  &--2 {
+    background-color: #F5C469;
+  }
+
+  &--3 {
+    background-color: #F4C724;
+  }
+
+  &--4 {
+    background-color: #F0DD87;
+  }
+
+  &--5 {
+    background-color: #DFAF2B;
+  }
+
+  &--6 {
+    background-color: #FAC42F;
+  }
+
+  &--7 {
+    background-color: #F3B63A;
+  }
+
+  &--8 {
+    background-color: #FBD28B;
+  }
+
+  &--9 {
+    background-color: #F3B431;
+  }
+
+  &--10 {
+    background-color: #FAD02E;
+  }
+
+  &--11 {
+    background-color: #E5B143;
+  }
+
+  &--12 {
+    background-color: #F3CC79;
+  }
+
+  &--13 {
+    background-color: #F9DDA4;
+  }
+
+  &--14 {
+    background-color: #FFF222;
+  }
+
+  &--15 {
+    background-color: #E1DA00;
+  }
+}
+
 .item:hover {
   transform: translateY(0px) scale(1.1);
   transition-duration: 0.3s;
