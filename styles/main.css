@@ -370,4 +370,20 @@ body .text-scroll {
   -webkit-box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3);
           box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
+
+.progress-container {
+  width: 100%;
+  height: 7px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 7px;
+  background: #6a4a82;
+  width: 0%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */
