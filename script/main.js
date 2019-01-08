@@ -8,7 +8,7 @@ function scrollFunction() {
     document.body.scrollTop > 60 ||
     document.documentElement.scrollTop > 60
   ) {
-    document.getElementById("navbar").style.padding = "10px 5px";
+    document.getElementById("navbar").style.padding = "15px 5px";
     document.getElementById("logo").style.fontSize = "30px";
   } else {
     document.getElementById("navbar").style.padding = "20px 5px";

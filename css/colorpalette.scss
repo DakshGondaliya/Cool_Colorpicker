@@ -1,0 +1,88 @@
+.cointainer {
+  width: 100%;
+  background-color: #f3f3f7;
+  display: grid;
+  margin: 5px 0.5px;
+  grid-template-rows: repeat(3, 200px);
+  grid-template-columns: repeat(5, 285px);
+  grid-row-gap: 10px;
+}
+
+.item {
+  padding: 2px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 15px;
+  font-family: sans-serif;
+  line-height: 200px;
+  color: #fff;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+
+  &--1 {
+    background-color: #E44236;
+  }
+
+  &--2 {
+    background-color: #B83227;
+  }
+
+  &--3 {
+    background-color: #D63031;
+  }
+
+  &--4 {
+    background-color: #E84342;
+  }
+
+  &--5 {
+    background-color: #FF3031;
+  }
+
+  &--6 {
+    background-color: #BA2F16;
+  }
+
+  &--7 {
+    background-color: #EC4849;
+  }
+
+  &--8 {
+    background-color: #FF3E4D;
+  }
+
+  &--9 {
+    background-color: #E71C23;
+  }
+
+  &--10 {
+    background-color: #EA425C;
+  }
+
+  &--11 {
+    background-color: #E8290B;
+  }
+
+  &--12 {
+    background-color: #AE1438;
+  }
+
+  &--13 {
+    background-color: #E83350;
+  }
+
+  &--14 {
+    background-color: #FF4848;
+  }
+
+  &--15 {
+    background-color: #FF362E;
+  }
+}
+
+.item:hover {
+  transform: translateY(0px) scale(1.1);
+  transition-duration: 0.3s;
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
