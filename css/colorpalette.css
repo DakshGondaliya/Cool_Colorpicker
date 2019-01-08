@@ -6,8 +6,8 @@
   margin: 5px 0.5px;
   -ms-grid-rows: (200px)[3];
       grid-template-rows: repeat(3, 200px);
-  -ms-grid-columns: (285px)[5];
-      grid-template-columns: repeat(5, 285px);
+  -ms-grid-columns: (20%)[5];
+      grid-template-columns: repeat(5, 20%);
   grid-row-gap: 10px;
 }
 
