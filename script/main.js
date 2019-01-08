@@ -13,6 +13,7 @@ function scrollFunction() {
     // document.getElementById("logo").style.fontSize = "30px";
   } else {
     document.getElementById("navbar").style.padding = "0 5px";
+    // document.getElementById("specialmargin").style.margin = "100px 0 0 0";
     // document.getElementById("logo").style.fontSize = "40px";
   }
 }
