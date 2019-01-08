@@ -1,11 +1,11 @@
 .cointainer {
   width: 100%;
-  background-color: #f3f3f7;
+  background-color: #FFF;
   display: -ms-grid;
   display: grid;
   margin: 5px 0.5px;
-  -ms-grid-rows: (200px)[3];
-      grid-template-rows: repeat(3, 200px);
+  -ms-grid-rows: (175px)[3];
+      grid-template-rows: repeat(3, 175px);
   -ms-grid-columns: (20%)[5];
       grid-template-columns: repeat(5, 20%);
   grid-row-gap: 10px;
@@ -17,71 +17,131 @@
   vertical-align: middle;
   font-size: 15px;
   font-family: sans-serif;
-  line-height: 200px;
+  line-height: 175px;
   color: #fff;
   -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
 
-.item--1 {
+.itemr--1 {
   background-color: #E44236;
 }
 
-.item--2 {
+.itemr--2 {
   background-color: #B83227;
 }
 
-.item--3 {
+.itemr--3 {
   background-color: #D63031;
 }
 
-.item--4 {
+.itemr--4 {
   background-color: #E84342;
 }
 
-.item--5 {
+.itemr--5 {
   background-color: #FF3031;
 }
 
-.item--6 {
+.itemr--6 {
   background-color: #BA2F16;
 }
 
-.item--7 {
+.itemr--7 {
   background-color: #EC4849;
 }
 
-.item--8 {
+.itemr--8 {
   background-color: #FF3E4D;
 }
 
-.item--9 {
+.itemr--9 {
   background-color: #E71C23;
 }
 
-.item--10 {
+.itemr--10 {
   background-color: #EA425C;
 }
 
-.item--11 {
+.itemr--11 {
   background-color: #E8290B;
 }
 
-.item--12 {
+.itemr--12 {
   background-color: #AE1438;
 }
 
-.item--13 {
+.itemr--13 {
   background-color: #E83350;
 }
 
-.item--14 {
+.itemr--14 {
   background-color: #FF4848;
 }
 
-.item--15 {
+.itemr--15 {
   background-color: #FF362E;
+}
+
+.itemb--1 {
+  background-color: #3498DB;
+}
+
+.itemb--2 {
+  background-color: #2475B0;
+}
+
+.itemb--3 {
+  background-color: #74B9FF;
+}
+
+.itemb--4 {
+  background-color: #0A79DF;
+}
+
+.itemb--5 {
+  background-color: #4834DF;
+}
+
+.itemb--6 {
+  background-color: #30336B;
+}
+
+.itemb--7 {
+  background-color: #487EB0;
+}
+
+.itemb--8 {
+  background-color: #192A56;
+}
+
+.itemb--9 {
+  background-color: #6A89CC;
+}
+
+.itemb--10 {
+  background-color: #0A3D62;
+}
+
+.itemb--11 {
+  background-color: #4BCFFA;
+}
+
+.itemb--12 {
+  background-color: #0ABDE3;
+}
+
+.itemb--13 {
+  background-color: #25CCF7;
+}
+
+.itemb--14 {
+  background-color: #67E6CD;
+}
+
+.itemb--15 {
+  background-color: #3C40C6;
 }
 
 .item:hover {
@@ -91,6 +151,5 @@
           transition-duration: 0.3s;
   -webkit-box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3);
           box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3);
-  z-index: 1;
 }
 /*# sourceMappingURL=colorpalette.css.map */

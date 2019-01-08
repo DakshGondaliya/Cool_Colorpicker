@@ -9,10 +9,10 @@ function scrollFunction() {
     document.body.scrollTop > 60 ||
     document.documentElement.scrollTop > 60
   ) {
-    document.getElementById("navbar").style.padding = "5px 5px";
+    document.getElementById("navbar").style.padding = "0 5px";
     // document.getElementById("logo").style.fontSize = "30px";
   } else {
-    document.getElementById("navbar").style.padding = "10px 5px";
+    document.getElementById("navbar").style.padding = "0 5px";
     // document.getElementById("logo").style.fontSize = "40px";
   }
 }
