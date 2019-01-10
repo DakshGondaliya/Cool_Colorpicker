@@ -13,6 +13,7 @@
 
 .item {
   padding: 2px;
+  cursor: pointer;
   text-align: center;
   vertical-align: middle;
   font-size: 15px;
