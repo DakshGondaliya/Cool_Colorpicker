@@ -3,6 +3,20 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Required styles for MDC Web -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Render textfield component -->
+    <div class="mdc-text-field">
+      <input type="text" id="my-text-field" class="mdc-text-field__input" />
+      <label class="mdc-floating-label" for="my-text-field">Hint text</label>
+      <div class="mdc-line-ripple"></div>
+    </div>
+
     <link
       rel="stylesheet"
       type="text/css"
@@ -13,7 +27,8 @@
   </head>
 
   <body>
-    <div id="navbar">
+    <div id="object" class="slideUp"></div>
+     <div id="navbar">
       <a href="#default">
         <img src="images/logo_2.PNG" alt="Logo" id="logo" />
       </a>
@@ -73,11 +88,11 @@
         <a class="active" href="#home">Home</a>
         <a href="#contact">Contact</a> <a href="#about">About</a> 
       </div> -->
-    </div>
+     </div>
 
     <div class="text-scroll">
-      <p class="color-name" id="specialmargin">Rocking Red</p>
-      <div class="cointainer">
+      <p class="color-name" id="specialmargin" data-aos="fade-right">Rocking Red</p>
+      <div class="cointainer" data-aos="zoom-in">
         <div class="item itemr itemr--1">#E44236</div>
         <div class="item itemr itemr--2">#B83227</div>
         <div class="item itemr itemr--3">#D63031</div>
@@ -89,14 +104,14 @@
         <div class="item itemr itemr--9">#E71C23</div>
         <div class="item itemr itemr--10">#EA425C</div>
         <div class="item itemr itemr--11">#E8290C</div>
-        <div class="item itemr itemr--12">AE1438#</div>
+        <div class="item itemr itemr--12">#AE1438</div>
         <div class="item itemr itemr--13">#E83350</div>
         <div class="item itemr itemr--14">#FF4848</div>
         <div class="item itemr itemr--15">#FF362E</div>
       </div>
 
-      <p class="color-name spcmar">Beautiful Blue</p>
-      <div class="cointainer">
+      <p class="color-name spcmar" data-aos="fade-right">Beautiful Blue</p>
+      <div class="cointainer" data-aos="zoom-in">
         <div class="item itemb itemb--1">#3498DB</div>
         <div class="item itemb itemb--2">#2475B0</div>
         <div class="item itemb itemb--3">#74B9FF</div>
@@ -114,8 +129,8 @@
         <div class="item itemb itemb--15">#3C40C6</div>
       </div>
 
-      <p class="color-name spcmar">Glowing Green</p>
-      <div class="cointainer">
+      <p class="color-name spcmar" data-aos="fade-right">Glowing Green</p>
+      <div class="cointainer" data-aos="zoom-in">
         <div class="item itemg itemg--1">#2ECC72</div>
         <div class="item itemg itemg--2">#26AE60</div>
         <div class="item itemg itemg--3">#6AB04C</div>
@@ -133,8 +148,8 @@
         <div class="item itemg itemg--15">#218F76</div>
       </div>
 
-      <p class="color-name spcmar">Young Yellow</p>
-      <div class="cointainer">
+      <p class="color-name spcmar" data-aos="fade-right">Young Yellow</p>
+      <div class="cointainer" data-aos="zoom-in">
         <div class="item itemy itemy--1">#EEC213</div>
         <div class="item itemy itemy--2">#F5C469</div>
         <div class="item itemy itemy--3">#F4C724</div>
@@ -152,8 +167,8 @@
         <div class="item itemy itemy--15">#E1DA00</div>
       </div>
 
-      <p class="color-name spcmar">Glossy Gray</p>
-      <div class="cointainer spcmar">
+      <p class="color-name spcmar" data-aos="fade-right">Glossy Gray</p>
+      <div class="cointainer" data-aos="zoom-in">
         <div class="item itemgr itemgr--1">#7B8788</div>
         <div class="item itemgr itemgr--2">#99AAAB</div>
         <div class="item itemgr itemgr--3">#2C3335</div>
@@ -171,5 +186,19 @@
         <div class="item itemgr itemgr--15">#4C4B4B</div>
       </div>
     </div>
+  </div> 
+<!-- <div data-aos="fade-right"></div> -->
+    <!-- Required MDC Web JavaScript library -->
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Instantiate single textfield component rendered in the document -->
+    <script>
+      mdc.textField.MDCTextField.attachTo(
+        document.querySelector(".mdc-text-field")
+      );
+
+      AOS.init();
+    </script>
   </body>
 </html>
