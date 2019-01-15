@@ -1,2 +1,2 @@
 <p align="center">
-  <img src="https://i.postimg.cc/9Q1G77y5/logo-2.png" /></p>
+  <img src="https://i.postimg.cc/15BF5R4Y/logo-3.png" /></p>
