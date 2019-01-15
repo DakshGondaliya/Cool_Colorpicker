@@ -124,6 +124,9 @@ body .text-scroll {
   #navbar-right {
     float: none;
   }
+  #logo {
+    width: 180px;
+  }
 }
 .cointainer {
   width: 100%;
@@ -143,7 +146,7 @@ body .text-scroll {
   cursor: pointer;
   text-align: center;
   vertical-align: middle;
-  font-size: 18px;
+  font-size: 16px;
   font-family: sans-serif;
   line-height: 175px;
   color: #fff;
@@ -459,6 +462,12 @@ body .text-scroll {
           transition-duration: 0.3s;
   -webkit-box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3);
           box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 580px) {
+  .item {
+    font-size: 12px;
+  }
 }
 
 .progress-container {

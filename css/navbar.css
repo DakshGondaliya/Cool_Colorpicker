@@ -67,5 +67,8 @@
   #navbar-right {
     float: none;
   }
+  #logo {
+    width: 180px;
+  }
 }
 /*# sourceMappingURL=navbar.css.map */
