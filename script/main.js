@@ -24,7 +24,7 @@ function growShrinkLogo() {
   if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
     Logo.style.width = '200px';
   } else {
-    Logo.style.width = '240px';
+    Logo.style.width = '250px';
   }
 }
 
