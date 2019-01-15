@@ -26,4 +26,32 @@ body .text-scroll {
 .spcmar {
   margin-top: 100px;
 }
+
+.fa-heart-o {
+  color: #ff3030;
+  font-size: 36px;
+  margin: 0 2px;
+}
+
+.footer__text > * {
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 5px 0;
+}
+
+.footer__text {
+  margin-top: 5rem;
+  font-family: 'Lato', sans-serif;
+  -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+.footer_para {
+  line-height: 100%;
+}
+
+#green {
+  color: #06cf4a;
+}
 /*# sourceMappingURL=style.css.map */
