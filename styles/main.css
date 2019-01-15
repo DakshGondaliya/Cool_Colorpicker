@@ -57,7 +57,7 @@ body .text-scroll {
 
 #navbar {
   overflow: hidden;
-  background-color: #fff;
+  background-color: #f3f3f7;
   -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
   -webkit-transition: 0.4s;
