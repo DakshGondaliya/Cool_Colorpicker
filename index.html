@@ -1,44 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- Required styles for MDC Web -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css" media="screen">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Render textfield component -->
-    <div class="mdc-text-field">
-      <input type="text" id="my-text-field" class="mdc-text-field__input" />
-      <label class="mdc-floating-label" for="my-text-field">Hint text</label>
-      <div class="mdc-line-ripple"></div>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- Required styles for MDC Web -->
+  <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css" media="screen">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Render textfield component -->
+  <div class="mdc-text-field">
+    <input type="text" id="my-text-field" class="mdc-text-field__input" />
+    <label class="mdc-floating-label" for="my-text-field">Hint text</label>
+    <div class="mdc-line-ripple"></div>
+  </div>
+
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
+  <script src="script/main.js"></script>
+</head>
+
+<body>
+  <div id="object" class="slideUp"></div>
+  <div id="navbar">
+    <a href="#default">
+      <img src="images/logo_2.PNG" alt="Logo" id="logo" />
+    </a>
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
     </div>
 
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="screen"
-      href="styles/main.css"
-    />
-    <script src="script/main.js"></script>
-  </head>
-
-  <body>
-    <div id="object" class="slideUp"></div>
-     <div id="navbar">
-      <a href="#default">
-        <img src="images/logo_2.PNG" alt="Logo" id="logo" />
-      </a>
-      <div class="progress-container">
-        <div class="progress-bar" id="myBar"></div>
-      </div>
-
-      <!-- <div id="navbar-right">
+    <!-- <div id="navbar-right">
         <div class="button-cointainer">
           <a
             class="btn btn-default btn-round btn-lg btn-icon"
@@ -49,7 +42,7 @@
           </a>
         </div>
       </div> -->
-      <!-- <div id="navbar-right">
+    <!-- <div id="navbar-right">
         <div class="button-container">
           <a
             class="btn btn-default btn-round btn-lg btn-icon"
@@ -90,122 +83,124 @@
         <a class="active" href="#home">Home</a>
         <a href="#contact">Contact</a> <a href="#about">About</a> 
       </div> -->
-     </div>
+  </div>
 
-    <div class="text-scroll">
-      <p class="color-name" id="specialmargin" data-aos="fade-right">Rocking Red</p>
-      <div class="cointainer" data-aos="zoom-in">
-        <div class="item itemr itemr--1">#E44236</div>
-        <div class="item itemr itemr--2">#B83227</div>
-        <div class="item itemr itemr--3">#D63031</div>
-        <div class="item itemr itemr--4">#E84342</div>
-        <div class="item itemr itemr--5">#FF3031</div>
-        <div class="item itemr itemr--6">#A2F16B</div>
-        <div class="item itemr itemr--7">#EC4849</div>
-        <div class="item itemr itemr--8">#FF3E4D</div>
-        <div class="item itemr itemr--9">#E71C23</div>
-        <div class="item itemr itemr--10">#EA425C</div>
-        <div class="item itemr itemr--11">#E8290C</div>
-        <div class="item itemr itemr--12">#AE1438</div>
-        <div class="item itemr itemr--13">#E83350</div>
-        <div class="item itemr itemr--14">#FF4848</div>
-        <div class="item itemr itemr--15">#FF362E</div>
-      </div>
-
-      <p class="color-name spcmar" data-aos="fade-right">Beautiful Blue</p>
-      <div class="cointainer" data-aos="zoom-in">
-        <div class="item itemb itemb--1">#3498DB</div>
-        <div class="item itemb itemb--2">#2475B0</div>
-        <div class="item itemb itemb--3">#74B9FF</div>
-        <div class="item itemb itemb--4">#0A79DF</div>
-        <div class="item itemb itemb--5">#4834DF</div>
-        <div class="item itemb itemb--6">#30336B</div>
-        <div class="item itemb itemb--7">#487EB0</div>
-        <div class="item itemb itemb--8">#192A56</div>
-        <div class="item itemb itemb--9">#6A89CC</div>
-        <div class="item itemb itemb--10">#0A3D62</div>
-        <div class="item itemb itemb--11">#4BCFFA</div>
-        <div class="item itemb itemb--12">#0ABDE3</div>
-        <div class="item itemb itemb--13">#25CCF7</div>
-        <div class="item itemb itemb--14">#67E6CD</div>
-        <div class="item itemb itemb--15">#3C40C6</div>
-      </div>
-
-      <p class="color-name spcmar" data-aos="fade-right">Glowing Green</p>
-      <div class="cointainer" data-aos="zoom-in">
-        <div class="item itemg itemg--1">#2ECC72</div>
-        <div class="item itemg itemg--2">#26AE60</div>
-        <div class="item itemg itemg--3">#6AB04C</div>
-        <div class="item itemg itemg--4">#6AB04A</div>
-        <div class="item itemg itemg--5">#BADC57</div>
-        <div class="item itemg itemg--6">#43BE31</div>
-        <div class="item itemg itemg--7">#45CE30</div>
-        <div class="item itemg itemg--8">#10A881</div>
-        <div class="item itemg itemg--9">#1BCA9B</div>
-        <div class="item itemg itemg--10">#7CEC9F</div>
-        <div class="item itemg itemg--11">#019031</div>
-        <div class="item itemg itemg--12">#A3CB37</div>
-        <div class="item itemg itemg--13">#75DA8B</div>
-        <div class="item itemg itemg--14">#53E0BC</div>
-        <div class="item itemg itemg--15">#218F76</div>
-      </div>
-
-      <p class="color-name spcmar" data-aos="fade-right">Young Yellow</p>
-      <div class="cointainer" data-aos="zoom-in">
-        <div class="item itemy itemy--1">#EEC213</div>
-        <div class="item itemy itemy--2">#F5C469</div>
-        <div class="item itemy itemy--3">#F4C724</div>
-        <div class="item itemy itemy--4">#F0DF87</div>
-        <div class="item itemy itemy--5">#DFAF2B</div>
-        <div class="item itemy itemy--6">#FAC42F</div>
-        <div class="item itemy itemy--7">#F3B63A</div>
-        <div class="item itemy itemy--8">#FBD28B</div>
-        <div class="item itemy itemy--9">#F3B431</div>
-        <div class="item itemy itemy--10">#FAD02E</div>
-        <div class="item itemy itemy--11">#E5B143</div>
-        <div class="item itemy itemy--12">#F3CC79</div>
-        <div class="item itemy itemy--13">#F9DDA4</div>
-        <div class="item itemy itemy--14">#FFF222</div>
-        <div class="item itemy itemy--15">#E1DA00</div>
-      </div>
-
-      <p class="color-name spcmar" data-aos="fade-right">Glossy Gray</p>
-      <div class="cointainer" data-aos="zoom-in">
-        <div class="item itemgr itemgr--1">#7B8788</div>
-        <div class="item itemgr itemgr--2">#99AAAB</div>
-        <div class="item itemgr itemgr--3">#2C3335</div>
-        <div class="item itemgr itemgr--4">#616C6F</div>
-        <div class="item itemgr itemgr--5">#DAE0E2</div>
-        <div class="item itemgr itemgr--6">#535C68</div>
-        <div class="item itemgr itemgr--7">#333945</div>
-        <div class="item itemgr itemgr--8">#2F363F</div>
-        <div class="item itemgr itemgr--9">#586776</div>
-        <div class="item itemgr itemgr--10">#8395A7</div>
-        <div class="item itemgr itemgr--11">#A4B0BD</div>
-        <div class="item itemgr itemgr--12">#777E8B</div>
-        <div class="item itemgr itemgr--13">#758AA2</div>
-        <div class="item itemgr itemgr--14">#47535E</div>
-        <div class="item itemgr itemgr--15">#4C4B4B</div>
-      </div>
+  <div class="text-scroll">
+      <p class="color-name" id="specialmargin p1" data-aos="fade-right">Rocking Red</p>
+    <div class="cointainer" data-aos="zoom-in">
+      <div class="item itemr itemr--1">#E44236</div>
+      <div class="item itemr itemr--2">#B83227</div>
+      <div class="item itemr itemr--3">#D63031</div>
+      <div class="item itemr itemr--4">#E84342</div>
+      <div class="item itemr itemr--5">#FF3031</div>
+      <div class="item itemr itemr--6">#A2F16B</div>
+      <div class="item itemr itemr--7">#EC4849</div>
+      <div class="item itemr itemr--8">#FF3E4D</div>
+      <div class="item itemr itemr--9">#E71C23</div>
+      <div class="item itemr itemr--10">#EA425C</div>
+      <div class="item itemr itemr--11">#E8290C</div>
+      <div class="item itemr itemr--12">#AE1438</div>
+      <div class="item itemr itemr--13">#E83350</div>
+      <div class="item itemr itemr--14">#FF4848</div>
+      <div class="item itemr itemr--15">#FF362E</div>
     </div>
-  </div> 
+
+    <p class="color-name spcmar" data-aos="fade-right">Beautiful Blue</p>
+    <div class="cointainer" data-aos="zoom-in">
+      <div class="item itemb itemb--1">#3498DB</div>
+      <div class="item itemb itemb--2">#2475B0</div>
+      <div class="item itemb itemb--3">#74B9FF</div>
+      <div class="item itemb itemb--4">#0A79DF</div>
+      <div class="item itemb itemb--5">#4834DF</div>
+      <div class="item itemb itemb--6">#30336B</div>
+      <div class="item itemb itemb--7">#487EB0</div>
+      <div class="item itemb itemb--8">#192A56</div>
+      <div class="item itemb itemb--9">#6A89CC</div>
+      <div class="item itemb itemb--10">#0A3D62</div>
+      <div class="item itemb itemb--11">#4BCFFA</div>
+      <div class="item itemb itemb--12">#0ABDE3</div>
+      <div class="item itemb itemb--13">#25CCF7</div>
+      <div class="item itemb itemb--14">#67E6CD</div>
+      <div class="item itemb itemb--15">#3C40C6</div>
+    </div>
+
+    <p class="color-name spcmar" data-aos="fade-right">Glowing Green</p>
+    <div class="cointainer" data-aos="zoom-in">
+      <div class="item itemg itemg--1">#2ECC72</div>
+      <div class="item itemg itemg--2">#26AE60</div>
+      <div class="item itemg itemg--3">#6AB04C</div>
+      <div class="item itemg itemg--4">#6AB04A</div>
+      <div class="item itemg itemg--5">#BADC57</div>
+      <div class="item itemg itemg--6">#43BE31</div>
+      <div class="item itemg itemg--7">#45CE30</div>
+      <div class="item itemg itemg--8">#10A881</div>
+      <div class="item itemg itemg--9">#1BCA9B</div>
+      <div class="item itemg itemg--10">#7CEC9F</div>
+      <div class="item itemg itemg--11">#019031</div>
+      <div class="item itemg itemg--12">#A3CB37</div>
+      <div class="item itemg itemg--13">#75DA8B</div>
+      <div class="item itemg itemg--14">#53E0BC</div>
+      <div class="item itemg itemg--15">#218F76</div>
+    </div>
+
+    <p class="color-name spcmar" data-aos="fade-right">Young Yellow</p>
+    <div class="cointainer" data-aos="zoom-in">
+      <div class="item itemy itemy--1">#EEC213</div>
+      <div class="item itemy itemy--2">#F5C469</div>
+      <div class="item itemy itemy--3">#F4C724</div>
+      <div class="item itemy itemy--4">#F0DF87</div>
+      <div class="item itemy itemy--5">#DFAF2B</div>
+      <div class="item itemy itemy--6">#FAC42F</div>
+      <div class="item itemy itemy--7">#F3B63A</div>
+      <div class="item itemy itemy--8">#FBD28B</div>
+      <div class="item itemy itemy--9">#F3B431</div>
+      <div class="item itemy itemy--10">#FAD02E</div>
+      <div class="item itemy itemy--11">#E5B143</div>
+      <div class="item itemy itemy--12">#F3CC79</div>
+      <div class="item itemy itemy--13">#F9DDA4</div>
+      <div class="item itemy itemy--14">#FFF222</div>
+      <div class="item itemy itemy--15">#E1DA00</div>
+    </div>
+
+    <p class="color-name spcmar" data-aos="fade-right">Glossy Gray</p>
+    <div class="cointainer" data-aos="zoom-in">
+      <div class="item itemgr itemgr--1">#7B8788</div>
+      <div class="item itemgr itemgr--2">#99AAAB</div>
+      <div class="item itemgr itemgr--3">#2C3335</div>
+      <div class="item itemgr itemgr--4">#616C6F</div>
+      <div class="item itemgr itemgr--5">#DAE0E2</div>
+      <div class="item itemgr itemgr--6">#535C68</div>
+      <div class="item itemgr itemgr--7">#333945</div>
+      <div class="item itemgr itemgr--8">#2F363F</div>
+      <div class="item itemgr itemgr--9">#586776</div>
+      <div class="item itemgr itemgr--10">#8395A7</div>
+      <div class="item itemgr itemgr--11">#A4B0BD</div>
+      <div class="item itemgr itemgr--12">#777E8B</div>
+      <div class="item itemgr itemgr--13">#758AA2</div>
+      <div class="item itemgr itemgr--14">#47535E</div>
+      <div class="item itemgr itemgr--15">#4C4B4B</div>
+    </div>
+  </div>
+  </div>
 
   <div class="container footer__text">
-    <p class="footer_para">Built with <i class="fa fa-heart-o"></i> in the <span id="green">Green</span> city Gandhinagar, India.</p>
+    <p class="footer_para">Built with <i class="fa fa-heart-o"></i> in the <span id="green">Green</span> city
+      Gandhinagar, India.</p>
     <small>© <span class="year">2019</span> by Cool_Colorpicker. All rights reserved.</small>
   </div>
-<!-- <div data-aos="fade-right"></div> -->
-    <!-- Required MDC Web JavaScript library -->
-    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- Instantiate single textfield component rendered in the document -->
-    <script>
-      mdc.textField.MDCTextField.attachTo(
-        document.querySelector(".mdc-text-field")
-      );
+  <!-- <div data-aos="fade-right"></div> -->
+  <!-- Required MDC Web JavaScript library -->
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- Instantiate single textfield component rendered in the document -->
+  <script>
+    mdc.textField.MDCTextField.attachTo(
+      document.querySelector(".mdc-text-field")
+    );
 
-      AOS.init();
-    </script>
-  </body>
+    AOS.init();
+  </script>
+</body>
+
 </html>
