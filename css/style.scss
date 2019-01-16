@@ -15,6 +15,13 @@ body {
     padding: 0 15px;
     font-size: 20px;
   }
+
+  @media screen and (max-width: 580px) {
+
+    .text-scroll {
+      margin-top: 75px;
+    }
+  }
 }
 
 // hr {

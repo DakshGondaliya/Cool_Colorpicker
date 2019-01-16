@@ -16,4 +16,10 @@ body .text-scroll {
   padding: 0 15px;
   font-size: 20px;
 }
+
+@media screen and (max-width: 580px) {
+  body .text-scroll {
+    margin-top: 75px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
