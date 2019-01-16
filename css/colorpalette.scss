@@ -280,10 +280,30 @@
   margin-top: 100px;
 }
 
+@media screen and (max-width: 1024px) {
+  .color-name {
+    width: 20%;
+    font-size: 25px;
+  }
+  .spcmar {
+    margin-top: 70px;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .color-name {
     width: 20%;
     font-size: 20px;
+  }
+  .spcmar {
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .color-name {
+    width: 20%;
+    font-size: 18px;
   }
   .spcmar {
     margin-top: 70px;
@@ -295,7 +315,7 @@
     font-size: 12px;
   }
   .color-name {
-    width: 35%;
+    width: 40%;
     font-size: 15px;
   }
   .spcmar {
