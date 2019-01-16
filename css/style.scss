@@ -17,30 +17,6 @@ body {
   }
 }
 
-.color-name {
-  width: 16%;
-  font-family: monospace, "sans-serif";
-  font-size: 30px;
-  text-align: center;
-  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
-}
-
-.spcmar {
-  margin-top: 100px;
-}
-
-@media screen and (max-width: 580px) {
-
-  .color-name {
-    width: 40%;
-    font-size: 15px;
-  }
-
-  .spcmar {
-    margin-top: 50px;
-  }
-}
-
 // hr {
 //   border: none;
 //   height: 20px;
