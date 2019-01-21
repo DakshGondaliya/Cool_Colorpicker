@@ -1,6 +1,7 @@
 #navbar {
   overflow: hidden;
-  background-color: #f3f3f7;
+  background: -webkit-gradient(linear, left top, right top, from(#E4E5E6), to(#00416A));
+  background: linear-gradient(to right, #E4E5E6, #00416A);
   -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
   -webkit-transition: 0.4s;

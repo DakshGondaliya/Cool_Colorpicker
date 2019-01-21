@@ -1,6 +1,7 @@
 #navbar {
   overflow: hidden;
-  background-color: #f3f3f7;
+  // background-color: #f3f3f7;
+  background: linear-gradient(to right, #E4E5E6, #00416A);
   -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
   // padding: 20px 10px;
@@ -12,6 +13,14 @@
   z-index: 99;
 
   a {
+    // background: #ad5389;
+    // /* fallback for old browsers */
+    // background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+    // /* Chrome 10-25, Safari 5.1-6 */
+    // background: linear-gradient(to right, #3c1053, #ad5389);
+    // /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
     float: left;
     display: block;
     color: #000;

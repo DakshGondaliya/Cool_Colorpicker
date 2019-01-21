@@ -1,5 +1,5 @@
 // When the user scrolls down 30px from the top of the document, resize the navbar's padding and the logo's font size
-window.onscroll = function () {
+window.onscroll = function() {
   growShrinkLogo();
   scrollFunction();
   scrollindicator();
