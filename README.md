@@ -1,2 +1,2 @@
 <p align="center">
-  <img src="https://i.postimg.cc/15BF5R4Y/logo-3.png" /></p>
+  <img src="https://github.com/DakshGondaliya/Cool_Colorpicker/blob/master/images/logo_2.PNG" /></p>
