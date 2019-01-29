@@ -332,7 +332,7 @@
 }
 
 .item:hover {
-  transform: translateY(0px) scale(1.1);
+  transform: translateY(0px) scale(0.9);
   transition-duration: 0.3s;
   box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3); // z-index: 1;
 }
