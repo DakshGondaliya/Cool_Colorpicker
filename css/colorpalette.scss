@@ -25,59 +25,45 @@
   &--1 {
     background-color: #e44236;
   }
-
   &--2 {
     background-color: #b83227;
   }
-
   &--3 {
     background-color: #d63031;
   }
-
   &--4 {
     background-color: #e84342;
   }
-
   &--5 {
     background-color: #ff3031;
   }
-
   &--6 {
     background-color: #ba2f16;
   }
-
   &--7 {
     background-color: #ec4849;
   }
-
   &--8 {
     background-color: #ff3e4d;
   }
-
   &--9 {
     background-color: #e71c23;
   }
-
   &--10 {
     background-color: #ea425c;
   }
-
   &--11 {
     background-color: #e8290b;
   }
-
   &--12 {
     background-color: #ae1438;
   }
-
   &--13 {
     background-color: #e83350;
   }
-
   &--14 {
     background-color: #ff4848;
   }
-
   &--15 {
     background-color: #ff362e;
   }
@@ -87,59 +73,45 @@
   &--1 {
     background-color: #3498db;
   }
-
   &--2 {
     background-color: #2475b0;
   }
-
   &--3 {
     background-color: #74b9ff;
   }
-
   &--4 {
     background-color: #0a79df;
   }
-
   &--5 {
     background-color: #4834df;
   }
-
   &--6 {
     background-color: #30336b;
   }
-
   &--7 {
     background-color: #487eb0;
   }
-
   &--8 {
     background-color: #192a56;
   }
-
   &--9 {
     background-color: #6a89cc;
   }
-
   &--10 {
     background-color: #0a3d62;
   }
-
   &--11 {
     background-color: #4bcffa;
   }
-
   &--12 {
     background-color: #0abde3;
   }
-
   &--13 {
     background-color: #25ccf7;
   }
-
   &--14 {
     background-color: #67e6cd;
   }
-
   &--15 {
     background-color: #3c40c6;
   }
@@ -149,59 +121,45 @@
   &--1 {
     background-color: #2ecc72;
   }
-
   &--2 {
     background-color: #26ae60;
   }
-
   &--3 {
     background-color: #6ab04c;
   }
-
   &--4 {
     background-color: #6ab04a;
   }
-
   &--5 {
     background-color: #badc57;
   }
-
   &--6 {
     background-color: #43be31;
   }
-
   &--7 {
     background-color: #45ce30;
   }
-
   &--8 {
     background-color: #10a881;
   }
-
   &--9 {
     background-color: #1bca98;
   }
-
   &--10 {
     background-color: #7cec9f;
   }
-
   &--11 {
     background-color: #019031;
   }
-
   &--12 {
     background-color: #a3cb37;
   }
-
   &--13 {
     background-color: #75da8b;
   }
-
   &--14 {
     background-color: #53e0bc;
   }
-
   &--15 {
     background-color: #218f76;
   }
@@ -211,59 +169,45 @@
   &--1 {
     background-color: #eec213;
   }
-
   &--2 {
     background-color: #f5c469;
   }
-
   &--3 {
     background-color: #f4c724;
   }
-
   &--4 {
     background-color: #f0dd87;
   }
-
   &--5 {
     background-color: #dfaf2b;
   }
-
   &--6 {
     background-color: #fac42f;
   }
-
   &--7 {
     background-color: #f3b63a;
   }
-
   &--8 {
     background-color: #fbd28b;
   }
-
   &--9 {
     background-color: #f3b431;
   }
-
   &--10 {
     background-color: #fad02e;
   }
-
   &--11 {
     background-color: #e5b143;
   }
-
   &--12 {
     background-color: #f3cc79;
   }
-
   &--13 {
     background-color: #f9dda4;
   }
-
   &--14 {
     background-color: #fff222;
   }
-
   &--15 {
     background-color: #e1da00;
   }
@@ -273,59 +217,45 @@
   &--1 {
     background-color: #7b8788;
   }
-
   &--2 {
     background-color: #99aaab;
   }
-
   &--3 {
     background-color: #2c3335;
   }
-
   &--4 {
     background-color: #616c6f;
   }
-
   &--5 {
     background-color: #dae0e2;
   }
-
   &--6 {
     background-color: #535c68;
   }
-
   &--7 {
     background-color: #333945;
   }
-
   &--8 {
     background-color: #2f363f;
   }
-
   &--9 {
     background-color: #586776;
   }
-
   &--10 {
     background-color: #8395a7;
   }
-
   &--11 {
     background-color: #a4b0bd;
   }
-
   &--12 {
     background-color: #777e8b;
   }
-
   &--13 {
     background-color: #758aa2;
   }
-
   &--14 {
     background-color: #47535e;
   }
-
   &--15 {
     background-color: #4c4b4b;
   }
@@ -333,7 +263,8 @@
 
 .item:hover {
   transform: translateY(0px) scale(0.9);
-  transition-duration: 0.3s;
+  // transition-duration: 0.3s;
+  transition: all 0.3s ease-in-out;
   box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3); // z-index: 1;
 }
 
@@ -355,7 +286,6 @@
     width: 20%;
     font-size: 25px;
   }
-
   .spcmar {
     margin-top: 70px;
   }
@@ -366,7 +296,6 @@
     width: 20%;
     font-size: 20px;
   }
-
   .spcmar {
     margin-top: 70px;
   }
@@ -377,7 +306,6 @@
     width: 20%;
     font-size: 18px;
   }
-
   .spcmar {
     margin-top: 70px;
   }
@@ -389,17 +317,13 @@
   //   grid-template-columns: repeat(3, 1fr);
   //   grid-row-gap: 5px;
   // }
-
   .item {
-    font-size: 12px;
-    // line-height: 80px;
+    font-size: 12px; // line-height: 80px;
   }
-
   .color-name {
     width: 40%;
     font-size: 15px;
   }
-
   .spcmar {
     margin-top: 50px;
   }
