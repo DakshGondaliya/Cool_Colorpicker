@@ -19,6 +19,8 @@
   color: #fff;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
 }
 
 .itemr {
@@ -262,9 +264,9 @@
 }
 
 .item:hover {
-  transform: translateY(0px) scale(0.9);
-  // transition-duration: 0.3s;
-  transition: all 0.3s ease-in-out;
+  transform: translateY(0px) scale(0.9); // transition-duration: 0.3s;
+  z-index: 1;
+  transition: all 0.2s ease-in-out;
   box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3); // z-index: 1;
 }
 

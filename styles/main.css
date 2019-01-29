@@ -120,6 +120,11 @@ body .text-scroll {
   -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .itemr--1 {
@@ -425,8 +430,9 @@ body .text-scroll {
 .item:hover {
   -webkit-transform: translateY(0px) scale(0.9);
           transform: translateY(0px) scale(0.9);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  z-index: 1;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   -webkit-box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3);
           box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
