@@ -95,6 +95,20 @@ body .text-scroll {
     width: 180px;
   }
 }
+
+.btn .btn-success {
+  position: relative;
+  top: 0;
+  right: 0;
+  height: 3rem;
+  min-width: 3rem;
+  width: 3rem;
+  padding: 0;
+  background-color: #0e0616;
+  -webkit-box-shadow: 2px 2px 10px 0 rgba(255, 255, 255, 0.2);
+          box-shadow: 2px 2px 10px 0 rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
 .cointainer {
   width: 100%;
   background-color: #fff;
@@ -515,7 +529,7 @@ body .text-scroll {
 .footer__text > * {
   display: block;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 5px 0;
 }
 

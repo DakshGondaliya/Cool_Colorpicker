@@ -70,4 +70,19 @@
     width: 180px;
   }
 }
+
+.btn .btn-success {
+  position: relative;
+  top: 0;
+  right: 0;
+  height: 3rem;
+  min-width: 3rem;
+  width: 3rem;
+  z-index: 5;
+  padding: 0;
+  background: #0e0616;
+  -webkit-box-shadow: 2px 2px 10px 0 rgba(255, 255, 255, 0.2);
+          box-shadow: 2px 2px 10px 0 rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
 /*# sourceMappingURL=navbar.css.map */
