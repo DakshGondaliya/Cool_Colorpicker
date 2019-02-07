@@ -338,9 +338,10 @@
 }
 
 .color-name {
-  width: 16%;
-  font-family: monospace, "sans-serif";
-  font-size: 25px;
+  width: 18%;
+  font-family: "Google Sans", sans-serif;
+  letter-spacing: 0.3175px;
+  font-size: 24px;
   text-align: center;
   -webkit-box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
           box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
@@ -353,7 +354,7 @@
 @media screen and (max-width: 1024px) {
   .color-name {
     width: 20%;
-    font-size: 25px;
+    font-size: 22px;
   }
   .spcmar {
     margin-top: 70px;
@@ -373,7 +374,7 @@
 @media screen and (max-width: 768px) {
   .color-name {
     width: 20%;
-    font-size: 18px;
+    font-size: 15.5px;
   }
   .spcmar {
     margin-top: 70px;
@@ -385,8 +386,21 @@
     font-size: 12px;
   }
   .color-name {
-    width: 40%;
+    width: 30%;
     font-size: 15px;
+  }
+  .spcmar {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  .item {
+    font-size: 11px;
+  }
+  .color-name {
+    width: 35%;
+    font-size: 12px;
   }
   .spcmar {
     margin-top: 50px;
