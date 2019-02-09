@@ -1,7 +1,7 @@
 #navbar {
   overflow: hidden;
-  background: -webkit-gradient(linear, left top, right top, from(#E4E5E6), to(#00416A));
-  background: linear-gradient(to right, #E4E5E6, #00416A);
+  background: -webkit-gradient(linear, left top, right top, from(#e4e5e6), to(#00416a));
+  background: linear-gradient(to right, #e4e5e6, #00416a);
   -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
   -webkit-transition: 0.4s;
@@ -29,6 +29,17 @@
   font-weight: bold;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+}
+
+#navbar #information {
+  position: absolute;
+  margin-top: 1.6em;
+  margin-left: 42.2%;
+  color: #fff;
+  font-family: "Google Sans";
+  font-size: 1em;
+  letter-spacing: 0.3175px;
+  word-spacing: 0;
 }
 
 #social-msg {

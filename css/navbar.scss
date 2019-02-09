@@ -1,7 +1,7 @@
 #navbar {
   overflow: hidden;
   // background-color: #f3f3f7;
-  background: linear-gradient(to right, #E4E5E6, #00416A);
+  background: linear-gradient(to right, #e4e5e6, #00416a);
   -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
   // padding: 20px 10px;
@@ -20,7 +20,6 @@
     // background: linear-gradient(to right, #3c1053, #ad5389);
     // /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-
     float: left;
     display: block;
     color: #000;
@@ -37,6 +36,17 @@
     font-weight: bold;
     -webkit-transition: 0.4s;
     transition: 0.4s;
+  }
+
+  #information {
+    position: absolute;
+    margin-top: 1.6em;
+    margin-left: 42.2%;
+    color: #fff;
+    font-family: "Google Sans";
+    font-size: 1em;
+    letter-spacing: 0.3175px;
+    word-spacing: 0;
   }
 }
 
