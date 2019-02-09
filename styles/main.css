@@ -1,3 +1,8 @@
+@font-face {
+  font-display: GoogleSans-Regular;
+  src: url(../font/GoogleSans-Regular.ttf);
+}
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -61,7 +66,7 @@ body .text-scroll {
   margin-top: 1.6em;
   margin-left: 42.2%;
   color: #fff;
-  font-family: "Google Sans";
+  font-family: 'GoogleSans-Regular', sans-serif;
   font-size: 1em;
   letter-spacing: 0.3175px;
   word-spacing: 0;
@@ -447,7 +452,7 @@ body .text-scroll {
 
 .color-name {
   width: 18%;
-  font-family: "Google Sans", sans-serif;
+  font-family: "GoogleSans-Regular", sans-serif;
   letter-spacing: 0.3175px;
   font-size: 24px;
   text-align: center;
@@ -546,7 +551,7 @@ body .text-scroll {
 
 .footer__text {
   margin-top: 5rem;
-  font-family: 'Google Sans', sans-serif;
+  font-family: 'GoogleSans-Regular', sans-serif;
   -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
           box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
 }
