@@ -8,8 +8,8 @@
 
   <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css" media="screen">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/animate.min.css">
 
   <!-- Render textfield component -->
   <div class="mdc-text-field">
@@ -17,8 +17,11 @@
     <label class="mdc-floating-label" for="my-text-field">Hint text</label>
     <div class="mdc-line-ripple"></div>
   </div>
-
+   
   <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
+
+  <script src="js/clipboard.js"></script>
+  <script src="js/clipboard.min.js"></script>
   <script src="script/main.js"></script>
 </head>
 
@@ -92,6 +95,7 @@
         <a class="active" href="#home">Home</a>
         <a href="#contact">Contact</a> <a href="#about">About</a> 
       </div> -->
+      
   </div>
 
   <div class="text-scroll">
@@ -140,54 +144,54 @@
       <div class="item itemg itemg--3" data-clipboard-text="#6AB04C">#6AB04C</div>
       <div class="item itemg itemg--4" data-clipboard-text="#6AB04A">#6AB04A</div>
       <div class="item itemg itemg--5" data-clipboard-text="#BADC57">#BADC57</div>
-      <div class="item itemg itemg--6" data-clipboard-text="#">#43BE31</div>
-      <div class="item itemg itemg--7" data-clipboard-text="#">#45CE30</div>
-      <div class="item itemg itemg--8" data-clipboard-text="#">#10A881</div>
-      <div class="item itemg itemg--9" data-clipboard-text="#">#1BCA9B</div>
-      <div class="item itemg itemg--10" data-clipboard-text="#">#7CEC9F</div>
-      <div class="item itemg itemg--11" data-clipboard-text="#">#019031</div>
-      <div class="item itemg itemg--12" data-clipboard-text="#">#A3CB37</div>
-      <div class="item itemg itemg--13" data-clipboard-text="#">#75DA8B</div>
-      <div class="item itemg itemg--14" data-clipboard-text="#">#53E0BC</div>
-      <div class="item itemg itemg--15" data-clipboard-text="#">#218F76</div>
+      <div class="item itemg itemg--6" data-clipboard-text="#43BE31">#43BE31</div>
+      <div class="item itemg itemg--7" data-clipboard-text="#45CE30">#45CE30</div>
+      <div class="item itemg itemg--8" data-clipboard-text="#10A881">#10A881</div>
+      <div class="item itemg itemg--9" data-clipboard-text="#1BCA9B">#1BCA9B</div>
+      <div class="item itemg itemg--10" data-clipboard-text="#7CEC9F">#7CEC9F</div>
+      <div class="item itemg itemg--11" data-clipboard-text="#019031">#019031</div>
+      <div class="item itemg itemg--12" data-clipboard-text="#A3CB37">#A3CB37</div>
+      <div class="item itemg itemg--13" data-clipboard-text="#75DAA2">#75DA8B</div>
+      <div class="item itemg itemg--14" data-clipboard-text="#53E0BC">#53E0BC</div>
+      <div class="item itemg itemg--15" data-clipboard-text="#218F76">#218F76</div>
     </div>
 
     <p class="color-name spcmar" data-aos="fade-right">Young Yellow</p>
     <div class="cointainer" data-aos="zoom-in">
-      <div class="item itemy itemy--1" data-clipboard-text="#">#EEC213</div>
-      <div class="item itemy itemy--2" data-clipboard-text="#">#F5C469</div>
-      <div class="item itemy itemy--3" data-clipboard-text="#">#F4C724</div>
-      <div class="item itemy itemy--4" data-clipboard-text="#">#F0DF87</div>
-      <div class="item itemy itemy--5" data-clipboard-text="#">#DFAF2B</div>
-      <div class="item itemy itemy--6" data-clipboard-text="#">#FAC42F</div>
-      <div class="item itemy itemy--7" data-clipboard-text="#">#F3B63A</div>
-      <div class="item itemy itemy--8" data-clipboard-text="#">#FBD28B</div>
-      <div class="item itemy itemy--9" data-clipboard-text="#">#F3B431</div>
-      <div class="item itemy itemy--10" data-clipboard-text="#">#FAD02E</div>
-      <div class="item itemy itemy--11" data-clipboard-text="#">#E5B143</div>
-      <div class="item itemy itemy--12" data-clipboard-text="#">#F3CC79</div>
-      <div class="item itemy itemy--13" data-clipboard-text="#">#F9DDA4</div>
-      <div class="item itemy itemy--14" data-clipboard-text="#">#FFF222</div>
-      <div class="item itemy itemy--15" data-clipboard-text="#">#E1DA00</div>
+      <div class="item itemy itemy--1" data-clipboard-text="#EEC213">#EEC213</div>
+      <div class="item itemy itemy--2" data-clipboard-text="#F5C469">#F5C469</div>
+      <div class="item itemy itemy--3" data-clipboard-text="#F4C724">#F4C724</div>
+      <div class="item itemy itemy--4" data-clipboard-text="#F0DF87">#F0DF87</div>
+      <div class="item itemy itemy--5" data-clipboard-text="#DFAF2B">#DFAF2B</div>
+      <div class="item itemy itemy--6" data-clipboard-text="#FAC42F">#FAC42F</div>
+      <div class="item itemy itemy--7" data-clipboard-text="#F3B63A">#F3B63A</div>
+      <div class="item itemy itemy--8" data-clipboard-text="#FBD28B">#FBD28B</div>
+      <div class="item itemy itemy--9" data-clipboard-text="#F3B431">#F3B431</div>
+      <div class="item itemy itemy--10" data-clipboard-text="#FAD02E">#FAD02E</div>
+      <div class="item itemy itemy--11" data-clipboard-text="#E5B143">#E5B143</div>
+      <div class="item itemy itemy--12" data-clipboard-text="#F3CC79">#F3CC79</div>
+      <div class="item itemy itemy--13" data-clipboard-text="#F9DDA4">#F9DDA4</div>
+      <div class="item itemy itemy--14" data-clipboard-text="#FFF222">#FFF222</div>
+      <div class="item itemy itemy--15" data-clipboard-text="#E1DA00">#E1DA00</div>
     </div>
 
     <p class="color-name spcmar" data-aos="fade-right">Glossy Gray</p>
     <div class="cointainer" data-aos="zoom-in">
-      <div class="item itemgr itemgr--1" data-clipboard-text="#">#7B8788</div>
-      <div class="item itemgr itemgr--2" data-clipboard-text="#">#99AAAB</div>
-      <div class="item itemgr itemgr--3" data-clipboard-text="#">#2C3335</div>
-      <div class="item itemgr itemgr--4" data-clipboard-text="#">#616C6F</div>
-      <div class="item itemgr itemgr--5" data-clipboard-text="#">#DAE0E2</div>
-      <div class="item itemgr itemgr--6" data-clipboard-text="#">#535C68</div>
-      <div class="item itemgr itemgr--7" data-clipboard-text="#">#333945</div>
-      <div class="item itemgr itemgr--8" data-clipboard-text="#">#2F363F</div>
-      <div class="item itemgr itemgr--9" data-clipboard-text="#">#586776</div>
-      <div class="item itemgr itemgr--10" data-clipboard-text="#">#8395A7</div>
-      <div class="item itemgr itemgr--11" data-clipboard-text="#">#A4B0BD</div>
-      <div class="item itemgr itemgr--12" data-clipboard-text="#">#777E8B</div>
-      <div class="item itemgr itemgr--13" data-clipboard-text="#">#758AA2</div>
-      <div class="item itemgr itemgr--14" data-clipboard-text="#">#47535E</div>
-      <div class="item itemgr itemgr--15" data-clipboard-text="#">#4C4B4B</div>
+      <div class="item itemgr itemgr--1" data-clipboard-text="#7B8788">#7B8788</div>
+      <div class="item itemgr itemgr--2" data-clipboard-text="#99AAAB">#99AAAB</div>
+      <div class="item itemgr itemgr--3" data-clipboard-text="#2C3335">#2C3335</div>
+      <div class="item itemgr itemgr--4" data-clipboard-text="#616C6F">#616C6F</div>
+      <div class="item itemgr itemgr--5" data-clipboard-text="#DAE0E2">#DAE0E2</div>
+      <div class="item itemgr itemgr--6" data-clipboard-text="#535C68">#535C68</div>
+      <div class="item itemgr itemgr--7" data-clipboard-text="#333945">#333945</div>
+      <div class="item itemgr itemgr--8" data-clipboard-text="#2F363F">#2F363F</div>
+      <div class="item itemgr itemgr--9" data-clipboard-text="#586776">#586776</div>
+      <div class="item itemgr itemgr--10" data-clipboard-text="#8395A7">#8395A7</div>
+      <div class="item itemgr itemgr--11" data-clipboard-text="#A4B0BD">#A4B0BD</div>
+      <div class="item itemgr itemgr--12" data-clipboard-text="#777E8B">#777E8B</div>
+      <div class="item itemgr itemgr--13" data-clipboard-text="#758AA2">#758AA2</div>
+      <div class="item itemgr itemgr--14" data-clipboard-text="#47535E">#47535E</div>
+      <div class="item itemgr itemgr--15" data-clipboard-text="#4C4B4B">#4C4B4B</div>
     </div>
   </div>
   </div>
@@ -202,7 +206,6 @@
   <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
   <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
   <!-- Instantiate single textfield component rendered in the document -->
   <script>
     mdc.textField.MDCTextField.attachTo(
@@ -218,40 +221,6 @@
       });
     });
 
-    var clipboard = new ClipboardJS('.item');
-
-      clipboard.on('success', function (e) {
-        console.info('Action:', e.action);
-        console.info('Text:', e.text);
-        console.info('Trigger:', e.trigger);
-        
-
-        e.clearSelection();
-      });
-
-      clipboard.on('error', function (e) {
-        console.error('Action:', e.action);
-        console.error('Trigger:', e.trigger);
-      });
-
-      new ClipboardJS('.item', {
-        target: function (trigger) {
-          return trigger.nextElementSibling;
-        }
-      });
-
-      new ClipboardJS('.item', {
-        text: function (trigger) {
-          return trigger.getAttribute('aria-label');
-        }
-      });
-
-      new ClipboardJS('.item', {
-        container: document.getElementById('#modal')
-      });
-
-      var clipboard = new ClipboardJS('.item');
-      clipboard.destroy();
   </script>
 </body>
 

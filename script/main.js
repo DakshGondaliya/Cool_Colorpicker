@@ -33,3 +33,20 @@ function scrollindicator() {
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
+
+var clipboard = new ClipboardJS('.item');
+
+clipboard.on('success', function (e) {
+  e.clearSelection();
+  e.trigger.textContent = 'Copied';
+  var interval = setInterval(timer, 2000);
+
+  function timer() {
+    e.trigger.textContent = e.text;
+    clearInterval(interval);
+  }
+});
+
+clipboard.on('error', function (e) {
+  console.info(e);
+});
