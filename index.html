@@ -17,85 +17,51 @@
     <!-- <label class="mdc-floating-label" for="my-text-field">Hint text</label> -->
     <div class="mdc-line-ripple"></div>
   </div>
-   
+
   <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
 
-  <script src="js/clipboard.js"></script>
-  <script src="js/clipboard.min.js"></script>
-  <script src="script/main.js"></script>
+  <script defer src="js/clipboard.js"></script>
+  <script defer src="js/clipboard.min.js"></script>
+  <script defer src="script/main.js"></script>
+  <!-- Required MDC Web JavaScript library -->
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- Instantiate single textfield component rendered in the document -->
+  <script>
+    mdc.textField.MDCTextField.attachTo(
+      document.querySelector(".mdc-text-field")
+    );
+    AOS.init();
+    // $(document).ready(function () {
+    //   $('[data-toggle="popover"]').popover({
+    //     placement: 'down',
+    //     trigger: 'hover'
+    //   });
+    // });
+  </script>
 </head>
 
 <body>
   <div id="object" class="slideUp"></div>
-  <div id="navbar">
-    <a href="#default">
-      <img src="images/logo_2.PNG" alt="Logo" id="logo" />
-    </a>
-    <p id="information">Click to copy colorcode</p>
+  <div id="header">
     <div class="progress-container">
       <div class="progress-bar" id="myBar"></div>
     </div>
-    <!-- <div class="nav-right">
-      <a href="https://github.com/DakshGondaliya/Cool_Colorpicker">
-        <button type="button" class="btn btn-success">
-          Fork me on Github
-        </button>
-      </a>
-    </div> -->
-
-    <!-- <div id="navbar-right">
-        <div class="button-cointainer">
-          <a
-            class="btn btn-default btn-round btn-lg btn-icon"
-            href="#"
-            rel="tooltip"
-            title="Star me on Github"
-            ><i class="fa fa-github"></i>
-          </a>
-        </div>
-      </div> -->
-    <!-- <div id="navbar-right">
-        <div class="button-container">
-          <a
-            class="btn btn-default btn-round btn-lg btn-icon"
-            href="#"
-            rel="tooltip"
-            title="Follow me on Facebook"
-            ><i class="fa fa-facebook"></i>
-          </a>
-          <a
-            class="btn btn-default btn-round btn-lg btn-icon"
-            href="#"
-            rel="tooltip"
-            title="Follow me on Twitter"
-            ><i class="fa fa-twitter"></i
-          ></a>
-          <a
-            class="btn btn-default btn-round btn-lg btn-icon"
-            href="#"
-            rel="tooltip"
-            title="Follow me on LinkedIn"
-            ><i class="fa fa-linkedin"></i>
-          </a>
-          <a
-            class="btn btn-default btn-round btn-lg btn-icon"
-            href="#"
-            rel="tooltip"
-            title="Follow me on Google+"
-            ><i class="fa fa-google-plus"></i
-          ></a>
-          <a
-            class="btn btn-default btn-round btn-lg btn-icon"
-            href="#"
-            rel="tooltip"
-            title="Follow me on Instagram"
-            ><i class="fa fa-instagram"></i>
-          </a>
-        </div>
-        <a class="active" href="#home">Home</a>
-        <a href="#contact">Contact</a> <a href="#about">About</a> 
-      </div> -->
-      
+    <div class="header-content">
+      <div class="header-content-left">
+        <a href="/">
+          <img src="images/logo_2.PNG" alt="Logo" id="logo" />
+        </a>
+        <p id="information">Click on color box to copy hex code</p>
+      </div>
+      <div class="button-container">
+        <a href="https://github.com/DakshGondaliya/Cool_Colorpicker" target="_blank" rel="tooltip"
+          title="Star me on Github" class="github-icon">
+          <i class="fa fa-github"></i>
+        </a>
+      </div>
+    </div>
   </div>
 
   <div class="text-scroll">
@@ -197,31 +163,13 @@
   </div>
 
   <div class="container footer__text">
-    <p class="footer_para">Built with <i class="fa fa-heart-o"></i> in the <span id="green">Green</span> city
+    <p class="footer_para">Built with ❤️ in the <span id="green">Green</span> city
       Gandhinagar, India.</p>
-    <small>© <span class="year">2019</span> by Cool_Colorpicker. All rights reserved.</small>
+    <small class="copyrights">
+      <span class="copyrights-icon">&copy;</span>
+      <span class="copyrights-text"></span></small>
   </div>
   <!-- <div data-aos="fade-right"></div> -->
-  <!-- Required MDC Web JavaScript library -->
-  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <!-- Instantiate single textfield component rendered in the document -->
-  <script>
-    mdc.textField.MDCTextField.attachTo(
-      document.querySelector(".mdc-text-field")
-    );
-
-    AOS.init();
-
-    $(document).ready(function () {
-      $('[data-toggle="popover"]').popover({
-        placement: 'down',
-        trigger: 'hover'
-      });
-    });
-
-  </script>
 </body>
 
 </html>

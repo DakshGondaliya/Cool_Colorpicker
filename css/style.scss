@@ -9,18 +9,18 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   height: 100%;
   width: 100%;
+  font-size: 1.2rem;
+}
+
+.text-scroll {
+  margin-top: 120px;
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 580px) {
 
   .text-scroll {
-    margin-top: 120px;
-    padding: 0 15px;
-    font-size: 20px;
-  }
-
-  @media screen and (max-width: 580px) {
-
-    .text-scroll {
-      margin-top: 75px;
-    }
+    margin-top: 75px;
   }
 }
 

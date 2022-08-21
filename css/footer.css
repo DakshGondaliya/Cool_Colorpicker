@@ -1,25 +1,30 @@
-.fa-heart-o {
-  color: #ff3030;
-  font-size: 36px;
-  margin: 0 2px;
-}
-
 .footer__text > * {
   display: block;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   padding: 5px 0;
 }
 
 .footer__text {
   margin-top: 5rem;
-  font-family: 'GoogleSans-Regular', sans-serif;
-  -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
-          box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+  padding-top: 0.2rem;
+  font-family: "GoogleSans-Regular", sans-serif;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
 }
 
 .footer_para {
   line-height: 100%;
+}
+
+.copyrights {
+  display: flex;
+  justify-content: center;
+}
+
+.copyrights-icon {
+  margin-top: -0.1rem;
+  margin-right: 0.15rem;
+  font-size: 1.75rem;
 }
 
 #green {
@@ -36,5 +41,4 @@
   .fa-heart-o {
     font-size: 16px;
   }
-}
-/*# sourceMappingURL=footer.css.map */
+}/*# sourceMappingURL=footer.css.map */

@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,mBAAmB,CAAC;EAClB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,GAAG;EACX,UAAU,EAAE,IAAI;CACjB;;AAED,AAAA,aAAa,CAAC;EACZ,MAAM,EAAE,GAAG;EACX,UAAU,EAAE,OAAO;EACnB,KAAK,EAAE,EAAE;CACV;;AAED,AAAA,mBAAmB,CAAC;EAClB,OAAO,EAAE,IAAI;CACd",
-    "sources": [
-        "sidescrollbar.scss"
-    ],
-    "names": [],
-    "file": "sidescrollbar.css"
-}
+{"version":3,"sources":["sidescrollbar.scss","sidescrollbar.css"],"names":[],"mappings":"AAAA;EACE,WAAA;EACA,WAAA;EACA,gBAAA;ACCF;;ADEA;EACE,WAAA;EACA,mBAAA;EACA,SAAA;ACCF;;ADEA;EACE,aAAA;ACCF","file":"sidescrollbar.css"}

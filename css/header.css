@@ -1,43 +1,38 @@
-#navbar {
+#header {
   overflow: hidden;
-  background: -webkit-gradient(linear, left top, right top, from(#e4e5e6), to(#00416a));
-  background: linear-gradient(to right, #e4e5e6, #00416a);
-  -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(to right, #00416a, #2893ff);
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
-  -webkit-transition: 0.4s;
   transition: 0.4s;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 99;
 }
-
-#navbar a {
-  float: left;
-  display: block;
+#header a {
   color: #000;
-  text-align: center;
   padding: 10px;
   text-decoration: none;
-  font-size: 18px;
   line-height: 15px;
   border-radius: 4px;
 }
-
-#navbar #logo {
+#header .header-content,
+#header .header-content-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header #logo {
   font-size: 35px;
   font-weight: bold;
-  -webkit-transition: 0.4s;
   transition: 0.4s;
+  width: 250px;
 }
-
-#navbar #information {
+#header #information {
   position: absolute;
-  margin-top: 1.6em;
   margin-left: 42.2%;
   color: #fff;
-  font-family: 'GoogleSans-Regular', sans-serif;
-  font-size: 1em;
+  font-family: "GoogleSans-Regular", sans-serif;
+  font-size: 1.2em;
   letter-spacing: 0.3175px;
   word-spacing: 0;
 }
@@ -48,37 +43,31 @@
   padding: 12px;
   text-decoration: none;
   font-size: 35px;
-  -webkit-transition: 0.4s;
   transition: 0.4s;
   font-weight: bold;
   line-height: 15px;
 }
 
-#navbar a:hover {
-  background-color: #ddd;
+#header a:hover {
   color: black;
 }
-
-#navbar a.active {
+#header a.active {
   background-color: dodgerblue;
   color: white;
 }
 
-#navbar-right {
-  float: right;
+.github-icon {
+  font-size: 2.5rem;
 }
 
 @media screen and (max-width: 580px) {
-  #navbar a {
+  #header a {
     float: none;
     display: block;
     text-align: left;
-  }
-  #navbar-right {
-    float: none;
   }
   #logo {
     width: 180px;
   }
 }
-/*# sourceMappingURL=navbar.css.map */
+/*# sourceMappingURL=main.css.map *//*# sourceMappingURL=header.css.map */

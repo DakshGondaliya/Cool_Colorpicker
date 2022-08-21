@@ -1,4 +1,4 @@
-// When the user scrolls down 30px from the top of the document, resize the navbar's padding and the logo's font size
+// When the user scrolls down 30px from the top of the document, resize the header's padding and the logo's font size
 window.onscroll = function () {
   growShrinkLogo();
   scrollFunction();
@@ -6,14 +6,7 @@ window.onscroll = function () {
 };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
-    document.getElementById("navbar").style.padding = "0 2px";
-    // document.getElementById("logo").style.fontSize = "30px";
-  } else {
-    document.getElementById("navbar").style.padding = "0 2px";
-    // document.getElementById("specialmargin").style.margin = "100px 0 0 0";
-    // document.getElementById("logo").style.fontSize = "40px";
-  }
+  document.getElementById("header").style.padding = "0 2px";
 }
 
 function growShrinkLogo() {
@@ -38,7 +31,8 @@ var clipboard = new ClipboardJS('.item');
 
 clipboard.on('success', function (e) {
   e.clearSelection();
-  e.trigger.textContent = 'Copied';
+  e.trigger.textContent = 'Copied🙂';
+  e.trigger.style = 'font-size: 2rem';
   var interval = setInterval(timer, 2000);
 
   function timer() {
@@ -50,3 +44,6 @@ clipboard.on('success', function (e) {
 clipboard.on('error', function (e) {
   console.info(e);
 });
+
+const year = new Date().getFullYear()
+document.querySelector('.copyrights-text').textContent = `${year} by Cool_Colorpicker. All rights reserved.`
